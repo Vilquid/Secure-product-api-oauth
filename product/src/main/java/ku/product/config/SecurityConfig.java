@@ -27,7 +27,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
 				.csrf().disable()
 				.authorizeRequests()
 				.anyRequest()
-				.authenticated();
+				.authenticated()
 
 		// use stateless session, so user's state is not stored
 		.and()
